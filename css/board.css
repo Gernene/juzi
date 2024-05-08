@@ -1,0 +1,212 @@
+.board {
+    color: #fff;
+    text-align: center;
+    transition: .4s all ease;
+}
+
+.board:first-of-type {
+  margin: 2rem 0 0 0;
+}
+
+.board-fig {
+    margin: 0 0 1rem 0;
+    transition: .4s all ease;
+}
+
+.board-fig:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.board-img {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.board-caption {
+    display: none;
+}
+
+.board.slides {
+    background: #333;
+    box-sizing: border-box;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 4rem 10rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; 
+}
+
+.board-x {
+    display: none;
+    height: 2rem;
+    margin: 2rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s all ease;
+    width: 2rem;
+}
+
+.board-x:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+.board-x div {
+    background: #fff;
+    border-radius: 2px;
+    padding: 2px;
+    position: relative;
+    top: 50%;
+}
+
+.board-x div:first-child {
+    margin: -2px 0 0 0;
+    transform: rotate(-45deg);
+}
+
+.board-x div:last-child {
+    margin: -3px 0 0 0;
+    transform: rotate(45deg);
+}
+
+.board-arrow:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: all .4s ease;
+}
+
+.board.slides .board-content {
+    height: 100%;
+}
+
+.board.slides .board-x {
+    display: block;
+    margin: 2rem;
+    position: absolute;
+}
+
+.board.slides .board-arrow-l {
+    border-bottom: 2rem solid transparent;
+    border-right: 2rem solid #fff;
+    border-top: 2rem solid transparent;
+    left: 0;
+    margin: -2rem 0 0 2rem;
+    position: absolute;
+    top: 50%;
+}
+
+.board.slides .board-arrow-r {
+    border-bottom: 2rem solid transparent;
+    border-left: 2rem solid #fff;
+    border-top: 2rem solid transparent;
+    margin: -2rem 2rem 0 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.board.slides .board-content {
+    display: block;
+}
+
+.board.slides .board-col {
+    margin: 0;
+}
+
+.board.slides .board-col.selected {
+    height: 100%;
+}
+
+.board.slides .board-fig {
+    align-items: center;
+    border-radius: 0;
+    cursor: default;
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    width: auto;
+}
+
+.board.slides .board-fig.selected {
+    display: inline-flex;
+}
+
+.board.slides .board-img {
+    height: auto;
+    margin: 0 0 2rem 0;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    width: auto;
+}
+
+.board-fig.selected .board-caption {
+    display: block;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    
+    .board-content {
+        align-items: flex-start;
+        display: flex;
+    }
+
+    .board-col {
+        margin: 0 1rem 0 0;
+        flex: 1;
+    }
+
+    .board-col:last-child {
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .board.slides {
+	padding: 3rem 0 6rem 0;
+    }
+
+    .board.slides .board-x {
+	margin: .5rem;
+    }
+
+    .board.slides .board-arrow-l {
+        border-bottom: 1.5rem solid transparent;
+        border-right: 1.5rem solid #fff;
+        border-top: 1.5rem solid transparent;
+        left: 0;
+        margin: -4rem 0 0 1rem;
+        position: absolute;
+        top: 100%;
+    }
+
+    .board.slides .board-arrow-r {
+        border-bottom: 1.5rem solid transparent;
+        border-left: 1.5rem solid #fff;
+        border-top: 1.5rem solid transparent;
+        margin: -4rem 1rem 0 0;
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+
+    .board.slides .board-fig.selected {
+	display: block;
+	height: auto;
+    }
+}
