@@ -7,16 +7,17 @@ document.addEventListener("DOMContentLoaded", yall);
 
 
 window.onload = () => {
-  const navbar = document.getElementsByClassName('header')[0];
-  const scrollBound = navbar.offsetTop;
+  const header = document.getElementsByClassName('header')[0];
+  const navbar = document.getElementsByClassName('mobile-header')[0];
+  const scrollBound = header.offsetTop;
   const onScroll = () => {
     const scroll = document.documentElement.scrollTop;
 
     if (scroll > scrollBound) {
-      navbar.classList.remove("expanded");
+      navbar.classList.add("visible");
     }
     else {
-      navbar.classList.add("expanded");
+      navbar.classList.remove("visible");
     }
   }
   window.addEventListener('scroll', onScroll);
