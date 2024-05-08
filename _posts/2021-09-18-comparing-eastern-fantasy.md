@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comparing Eastern Fantasy Genres: Wuxia VS Xianxia VS Xuanhuan"
-date:   2021-09-18 00:00:00 -0000
+date:   2024-05-07 00:00:00 -0000
 permalink: /wuxia-xianxia-xuanhuan/
 categories: [Literature, Wuxia]
 ---

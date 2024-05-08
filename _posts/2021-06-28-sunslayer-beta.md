@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Seeking Beta Readers for Sun Slayer"
-date:   2021-06-28 00:00:00 -0000
+date:   2024-05-07 00:00:00 -0000
 categories: [Writing, Sun Slayer]
 ---
 

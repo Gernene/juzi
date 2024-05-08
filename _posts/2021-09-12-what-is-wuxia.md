@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Wuxia?"
-date:   2021-09-12 00:00:00 -0000
+date:   2024-05-07 00:00:00 -0000
 permalink: /what-is-wuxia/
 categories: [Wuxia, Literature]
 ---

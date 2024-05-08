@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Explaining Wuxia's Magic Using Star Wars"
-date:   2021-11-29 00:00:00 -0000
+date:   2024-05-07 00:00:00 -0000
 permalink: /star-wars-wuxia/
 categories: [Wuxia, Literature]
 ---
