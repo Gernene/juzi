@@ -16,4 +16,4 @@ So, Mortal, you wish to survive the world of Sun Slayer? Allow me to offer a few
 3. If you're a more sensitive soul, remember to prepare some tissues.
 
 [Buy Sun Slayer on Amazon](https://www.amazon.com/dp/B0DDKPHRK7)  
-[Learn More]({{ site.url }}/sunslayer)
+[Learn More]({{ site.url }}/sun-slayer)
