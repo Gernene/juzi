@@ -13,7 +13,7 @@ layout: null
 
   <url>
     <loc>{{ site.url }}/sun-slayer</loc>
-    <lastmod>2024-05-07</lastmod>
+    <lastmod>2026-01-02</lastmod>
     <priority>0.8</priority>
   </url>
 
