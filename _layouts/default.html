@@ -58,6 +58,10 @@
           <script src='/js/{{ js_file }}.js' type="text/javascript"></script>
       {% endfor %}
     {% endif %}
+
+    {% if page.custom_head %}
+      - {{ page.custom_head }}
+    {% endif %}
   </head>
   <body>
     <div class="wrapper">
