@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Wuxia?"
 date:   2024-05-07 00:00:00 -0000
-permalink: /asian-candy/
+permalink: /asian-candy
 categories: [Culture]
 ---
 # Traditional East Asian Candy
