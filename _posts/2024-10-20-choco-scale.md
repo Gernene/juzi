@@ -2,7 +2,7 @@
 layout: blog
 title:  "Juzi's Chocolate Scale for Books & Characters"
 date:   2024-10-20 00:00:00 -0000
-permalink: /chocolate/
+permalink: /chocolate
 categories: [blog]
 excerpt_separator: <!--more-->
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "What is That Called? Eastern Architecture Terminology"
 date:   2024-05-07 00:00:00 -0000
-permalink: /what-is-that-architecture/
+permalink: /what-is-that-architecture
 categories: [Wuxia, Literature]
 ---
 # What is That Called? Eastern Architecture Terminology

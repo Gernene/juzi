@@ -2,7 +2,7 @@
 layout: post
 title:  "Explaining Wuxia's Magic Using Star Wars"
 date:   2024-05-07 00:00:00 -0000
-permalink: /star-wars-wuxia/
+permalink: /star-wars-wuxia
 categories: [Wuxia, Literature]
 ---
 # Explaining Wuxia's Magic System Using Star Wars
