@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Once Immortal Pre-Release"
+title:  "Once Immortal Releases on Teachers' Day!"
 date:   2026-03-03 00:00:00 -0000
 permalink: /once-immortal-prerelease/
 categories: [blog]
