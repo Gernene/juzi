@@ -1,3 +1,20 @@
+.alert {
+  align-items: center;
+  background: #ffe9d4;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+  column-gap: 1em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 0 auto 2rem auto;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.alert > div:first-child {
+  font-size: 2.4rem;
+}
+
 .paragraph {
   margin: 0 auto 1em auto;
   max-width: 500px;
