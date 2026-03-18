@@ -1,0 +1,7 @@
+.gallery > img {
+    display: block;
+    margin: 0 auto 6rem auto;
+    max-height: 800px;
+    max-width: 600px;
+    width: 100%;
+}

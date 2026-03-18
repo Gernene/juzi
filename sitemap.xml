@@ -12,8 +12,20 @@ layout: null
   </url>
 
   <url>
+    <loc>{{ site.url }}/art/</loc>
+    <lastmod>2026-03-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>{{ site.url }}/sun-slayer/</loc>
     <lastmod>2026-01-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>{{ site.url }}/once-immortal/</loc>
+    <lastmod>2026-03-18</lastmod>
     <priority>0.8</priority>
   </url>
 
