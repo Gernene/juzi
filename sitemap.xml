@@ -19,14 +19,20 @@ layout: null
 
   <url>
     <loc>{{ site.url }}/sun-slayer/</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/img/writing/sun-slayer/sun-slayer-cover.jpg</image:loc>
+    </image:image>
   </url>
 
   <url>
     <loc>{{ site.url }}/once-immortal/</loc>
     <lastmod>2026-03-18</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>{{ site.url }}/img/writing/once-immortal/once-immortal-cover.jpg</image:loc>
+    </image:image>
   </url>
 
   <url>
