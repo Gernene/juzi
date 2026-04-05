@@ -22,7 +22,7 @@ window.onload = () => {
   }
   window.addEventListener('scroll', onScroll);
 
-  document.getElementsByClassName("newsletter-form")[0].addEventListener("submit", onSubmitNewsletter);
+  // document.getElementsByClassName("newsletter-form")[0].addEventListener("submit", onSubmitNewsletter);
 }
 
 function onSubmitNewsletter(e) {
@@ -30,8 +30,6 @@ function onSubmitNewsletter(e) {
   document.getElementsByClassName("newsletter-success")[0].classList.add("show");
   document.getElementsByClassName("newsletter-form")[0].classList.add("hide");
 
-  const honeyPotValue = document.getElementsByClassName("honey-pot-input")[0].value;
-  
-  if (!honeyPotValue) this.submit();
+  this.submit();
 }
 
