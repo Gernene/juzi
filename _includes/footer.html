@@ -1,7 +1,7 @@
 <div class="footer">
-  <div class="newsletter" id="newsletter">
+  <!-- <div class="newsletter" id="newsletter">
     <h2 class="heading1">Join Juzi's Newsletter</h2>
-    <p>I am recruiting disciples to cultivate the way of email newsletters! Free boarding, fruit, and ocaassional insight into the art of writing cultivation manuals!</p>
+    <p>I am recruiting disciples to cultivate the way of email newsletters! Free boarding, fruit, and occasional insight into the art of writing cultivation manuals!</p>
     <form
       class="newsletter-form"
       target="hidden-iframe"
@@ -21,6 +21,10 @@
     </form>
     <iframe class="hidden-iframe" name="hidden-iframe"></iframe>
     <div class="newsletter-success">Thank you! Please remember to check your inbox for a confirmation email. Welcome to the Land of Sea &amp; Flame!</div>
+  </div> -->
+
+  <div id="newsletter" class="newsletter">
+    {% include newsletter-form.html %}
   </div>
 
   <div class="nav-wrapper">
