@@ -29,6 +29,9 @@ function onSubmitNewsletter(e) {
   e.preventDefault();
   document.getElementsByClassName("newsletter-success")[0].classList.add("show");
   document.getElementsByClassName("newsletter-form")[0].classList.add("hide");
-  this.submit();
+
+  const honeyPotValue = document.getElementsByClassName("honey-pot-input")[0].value;
+  
+  if (!honeyPotValue) this.submit();
 }
 
