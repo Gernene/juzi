@@ -36,9 +36,10 @@ Did you know that the final version of Sun Slayer ends on the same line as this 
 This draft was sent to sent to beta reader E.
 The biggest takeaway from this round of feedback had to do with the novel’s structure: the story began after the inciting incident, leading me to relay a lot of plot information through flashbacks which disrupted the pacing/flow.Draft 13 (2023)
 This is the last draft which was seen by beta readers, 3 critique swaps (J, T, G).
+
 Main change: I expanded and reworked the novel structure to be chronological.
 This draft essentially grew 30-50% in word count from the last.
-Once of the readers made a comment/suggestion which inspired me to overhaul of the second half of the book by changing the main PoV.
+One of my readers made a comment/suggestion which inspired me to overhaul of the second half of the book by changing the main PoV.
 
 ### Draft 18 (2024)
 Sun Slayer was released in summer following multiple rounds of line edits and polishing.
