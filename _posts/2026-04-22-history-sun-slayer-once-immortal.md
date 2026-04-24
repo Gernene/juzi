@@ -34,7 +34,9 @@ Did you know that the final version of Sun Slayer ends on the same line as this 
 
 ### Draft 9 (2021)
 This draft was sent to sent to beta reader E.
-The biggest takeaway from this round of feedback had to do with the novel’s structure: the story began after the inciting incident, leading me to relay a lot of plot information through flashbacks which disrupted the pacing/flow.Draft 13 (2023)
+The biggest takeaway from this round of feedback had to do with the novel’s structure: the story began after the inciting incident, leading me to relay a lot of plot information through flashbacks which disrupted the pacing/flow.
+
+### Draft 13 (2023)
 This is the last draft which was seen by beta readers, 3 critique swaps (J, T, G).
 
 Main change: I expanded and reworked the novel structure to be chronological.
