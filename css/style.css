@@ -772,6 +772,23 @@ body {
   width: 100%;
 }
 
+.footer > .nav-wrapper {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons > a > img {
+  margin: 0 .6rem 0 0;
+  max-height: 2.4rem;
+  max-width: 2.4rem;
+  min-width: 2.4rem;
+}
+
 @media (max-width: 370px) {
   .header.expanded {
     padding: 0;
