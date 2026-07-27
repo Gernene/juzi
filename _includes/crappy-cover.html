@@ -1,6 +1,35 @@
-<figure class="crappy-cover">
-  <img src="hold.jpg" data-src="/img/{{ include.img }}" title="{{ include.title }}" alt="{{ include.alt }}" class="crappy-cover-img lazy">
-  <noscript>
-    <img src="/img/{{ include.img }}" title="{{ include.title }}" alt="{{ include.alt }}" class="crappy-cover-img">
-  </noscript>
-</figure>
+<li class="crappy-cover-item">
+  <p class="summary">{{ include.summary }}</p>
+  <figure class="crappy-cover">
+    <img
+      src="hold.jpg"
+      data-src="/img/{{ include.crappyImg }}"
+      title="Crappy cover for {{ include.title }} by {{ include.author }}"
+      alt="Crappy cover for {{ include.title }} by {{ include.author }}"
+      class="lazy"
+    >
+    <noscript>
+      <img
+        src="/img/{{ include.crappyImg }}"
+        title="{{ include.title }}"
+        alt="Crappy cover for {{ include.title }} by {{ include.author }}"
+      >
+    </noscript>
+  </figure>
+  <figure class="original-cover">
+    <img
+      src="hold.jpg"
+      data-src="/img/{{ include.originalImg }}"
+      title="Original cover for {{ include.title }} by {{ include.author }}"
+      alt="Original cover for {{ include.title }} by {{ include.author }}"
+      class="lazy"
+    >
+    <noscript>
+      <img
+        src="/img/{{ include.originalImg }}"
+        title="Original cover for {{ include.title }} by {{ include.author }}"
+        alt="Original cover for {{ include.title }} by {{ include.author }}"
+      >
+    </noscript>
+  </figure>
+</li>
