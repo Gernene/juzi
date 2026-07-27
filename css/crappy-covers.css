@@ -1,12 +1,47 @@
 .crappy-covers {
     display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    row-gap: 2rem;
+}
+
+.crappy-covers > li {
+    margin: 0 0 2rem 0;
+}
+
+.crappy-cover-item {
+    column-gap: 3rem;
+    display: grid;
+    grid-template-areas: "summary summary" "crappyCover originalCover";
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     max-width: 600px;
-    row-gap: 4rem;
+    row-gap: 1rem;
 }
 
-.crappy-cover > img {
+.crappy-cover {
+    grid-area: crappyCover;
+    margin: 0;
+    padding: 0;
+}
+
+.original-cover {
+    grid-area: originalCover;
+    margin: 0;
+    padding: 0;
+}
+
+.summary {
+    align-self: "grid-column-start";
+    grid-area: summary;
+    padding: 0;
+    width: 100%;
+}
+
+.crappy-cover > img,
+.original-cover > img {
     height: 100%;
     max-height: 100%;
     max-width: 100%;
