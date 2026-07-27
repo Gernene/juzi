@@ -18,6 +18,12 @@ layout: null
   </url>
 
   <url>
+    <loc>{{ site.url }}/crappy-covers/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>{{ site.url }}/sun-slayer/</loc>
     <lastmod>2026-03-20</lastmod>
     <priority>0.8</priority>
